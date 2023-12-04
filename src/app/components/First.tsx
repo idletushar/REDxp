@@ -18,7 +18,7 @@ function First() {
             </div>
           </div>
 
-          <div className="bg-[url('/h1-subscribed.svg')] bg-right bg-cover h-[400px] w-[500px]"></div>
+          <div className="bg-[url('/h1-subscribed.svg')] bg-right bg-cover md:br-center h-[400px] w-[500px]"></div>
         </div>
       </div>
       <div className="bg-white">
