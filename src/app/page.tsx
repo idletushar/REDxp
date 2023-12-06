@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import First from "./components/First";
-import Second from "./components/Second";
-import Third from "./components/Third";
-import Forth from "./components/Forth";
+import Navbar from "../../components/Navbar";
+import First from "../../components/First";
+import Second from "../../components/Second";
+import Third from "../../components/Third";
+import Forth from "../../components/Forth";
 // import Test from "../../components/Test";
 
 export default function Home() {
