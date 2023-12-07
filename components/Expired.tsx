@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-function Test() {
+
+function Expired() {
   return (
     <div className="bg-red1">
       <div className="  px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
@@ -35,7 +36,7 @@ function Test() {
           <p className="text-white font-extrabold text-xl">Rs. 2450</p>
         </div>
         {/*  */}
-        <div className=" grid">
+        <div className="grid">
           <div className="flex overflow-x-scroll no-scrollbar">
             <div className="bg-white rounded-md p-3 mt-3 mx-2 w-40 flex-shrink-0">
               <Image
@@ -107,4 +108,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Expired;

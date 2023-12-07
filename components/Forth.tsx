@@ -14,7 +14,7 @@ function Forth() {
       </div>
       <div className="hidden md:block">
         <div className=" grid grid-rows-2 grid-flow-col justify-center gap-4 content-center m-14 pb-24">
-          <div className=" bg-red-600 rounded-l-full text-white lg:w-96 p-5 lg:flex">
+          <div className=" bg-red1 rounded-l-full text-white lg:w-96 p-5 lg:flex">
             <Image
               className="mr-2"
               src="/illustration-1.svg"
@@ -31,7 +31,7 @@ function Forth() {
               </p>
             </div>
           </div>
-          <div className="bg-red-600 rounded-l-full text-white lg:w-96 lg:flex p-5">
+          <div className="bg-red1 rounded-l-full text-white lg:w-96 lg:flex p-5">
             <Image
               className="mr-2"
               src="/illustration-3.svg"
@@ -47,7 +47,7 @@ function Forth() {
               </p>
             </div>
           </div>
-          <div className="bg-red-600 rounded-r-full text-white lg:w-96 lg:flex p-5">
+          <div className="bg-red1 rounded-r-full text-white lg:w-96 lg:flex p-5">
             <div>
               <h1 className="mb-2 font-semibold">Make Trvel Your Lifestyle</h1>
               <p className=" font-thin text-xs">
@@ -56,13 +56,13 @@ function Forth() {
             </div>
             <Image
               className="ml-2"
-              src="/illustration-2.svg"
+              src="/Mask Group 58.svg"
               height="100"
-              width="100"
+              width="80"
               alt=""
             ></Image>
           </div>
-          <div className="bg-red-600 rounded-r-full text-white lg:flex lg:w-96 p-5">
+          <div className="bg-red1 rounded-r-full text-white lg:flex lg:w-96 p-5">
             <div>
               <h1 className="mb-2 font-semibold">Share The Happiness</h1>
               <p className=" font-thin text-xs">
@@ -81,8 +81,8 @@ function Forth() {
         </div>
       </div>
       {/* mobile view */}
-      <div className="lg:hidden flex overflow-x-auto max-w-full pt-10 pb-28">
-        <div className="bg-red-600 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
+      <div className="lg:hidden flex overflow-x-auto no-scrollbar max-w-full pt-10 pb-28">
+        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
           <div className="bg-white rounded-t-3xl flex justify-center items-center">
             <Image
               className="mr-2"
@@ -92,7 +92,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red-600">
+          <div className="bg-red1 ">
             <h1 className="mb-1 font-semibold text-center">
               Your Journey, Our Story
             </h1>
@@ -102,7 +102,7 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="bg-red-600 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
+        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
           <div className="bg-white rounded-t-3xl flex justify-center items-center">
             <Image
               className="mr-2"
@@ -112,7 +112,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red-600">
+          <div className="bg-red1 ">
             <h1 className="mb-2 text-center font-semibold">Always About You</h1>
             <p className=" text-center font-thin text-xs">
               Even during Covid, 83% of our customers trusted us for refund. We
@@ -120,13 +120,13 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="bg-red-600 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0 ">
+        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0 ">
           <div className="bg-white rounded-t-3xl flex justify-center items-center">
             <Image
               className="ml-2"
-              src="/illustration-2.svg"
+              src="/Mask Group 58.svg"
               height="100"
-              width="200"
+              width="135"
               alt=""
             ></Image>
           </div>
@@ -139,7 +139,7 @@ function Forth() {
             </p>
           </div>
         </div>
-        <div className="bg-red-600 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
+        <div className="bg-red1 text-white w-72 mx-1 rounded-3xl h-64 flex-shrink-0">
           <div className="bg-white rounded-t-3xl flex justify-center items-center">
             <Image
               className="ml-2"
@@ -149,7 +149,7 @@ function Forth() {
               alt=""
             ></Image>
           </div>
-          <div className="bg-red-600">
+          <div className="bg-red1 ">
             <h1 className="mb-2 text-center font-semibold">
               Share The Happiness
             </h1>

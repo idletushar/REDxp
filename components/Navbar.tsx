@@ -5,14 +5,14 @@ function Navbar() {
   return (
     <div>
       <nav className="md:block hidden bg-white  w-full z-20 top-0 left-0">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto p-3">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto">
           <ul className=" flex bg-white  items-center flex-row space-x-4 mt-0 border-0 ">
             <a href="/" className="flex items-center mr-6">
               <span className="self-center text-4xl font-semibold whitespace-nowrap text-red-700">
                 travelxp
               </span>
             </a>
-            <li className="hover:border-b-4 border-red-700">
+            <li className="hover:border-b-4 border-red-700 px-3">
               <a
                 href="#"
                 className="flex py-2 text-xs text-gray-400 hover:text-red-700  "
@@ -28,7 +28,7 @@ function Navbar() {
                 Watch
               </a>
             </li>
-            <li className="hover:border-b-4 border-red-700">
+            <li className="hover:border-b-4 border-red-700 px-3">
               <a
                 href="#"
                 className="flex py-2 text-xs text-gray-400 hover:text-red-700  "
@@ -43,7 +43,7 @@ function Navbar() {
                 Book
               </a>
             </li>
-            <li className="hover:border-b-4 border-red-700">
+            <li className="hover:border-b-4 border-red-700 px-3">
               <a
                 href="#"
                 className="flex py-2 text-xs text-gray-400 hover:text-red-700  "

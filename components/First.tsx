@@ -18,11 +18,11 @@ function First() {
             </div>
           </div>
 
-          <div className="bg-[url('/h1-subscribed.svg')] bg-right bg-cover md:br-center h-[400px] w-[500px]"></div>
+          <div className="bg-[url('/icon1.png')] bg-cover  md:bg-center lg:h-[500px] h-[350px] w-[500px]"></div>
         </div>
       </div>
       <div className="bg-white">
-        <div className="shadow-xl lg:hidden mr-3 ml-3 rounded-tl-3xl rounded-tr-3xl bg-red-100 border-black align-middle p-4 mt-3 ">
+        <div className="shadow-xl  lg:hidden mr-3 ml-3 rounded-tl-3xl rounded-tr-3xl bg-red-100 border-black align-middle p-4 mt-7 mb-7 ">
           <p className="text-gray-400">Current Plan Duration:</p>
           <p className="text-gray-400">Subscription Amount:</p>
           <p className="text-gray-400">Plan Expiry Date:</p>
