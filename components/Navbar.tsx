@@ -73,8 +73,8 @@ function Navbar() {
         </div>
       </nav>
       {/* Mobile view */}
-      <nav className="lg:hidden bg-white fixed  w-full z-10 bottom-0 left-0">
-        <div className=" flex flex-wrap items-center justify-items-center justify-around mx-auto p-3">
+      <nav className="lg:hidden bg-white fixed  w-full z-10 bottom-0 left-0 p-3">
+        <div className=" flex flex-wrap items-center justify-items-center justify-around mx-auto ">
           <ul className=" flex bg-white  items-center flex-row space-x-4 mt-0 border-0 ">
             <li>
               <div className="  mx-7">
