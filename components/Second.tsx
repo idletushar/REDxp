@@ -6,7 +6,7 @@ function Second() {
     <div className="bg-red1 ">
       <div className="px-4 flex flex-wrap items-center justify-around mx-auto pt-12 pb-24 ">
         <Image
-          className="hidden md:block"
+          className="hidden md:block mb-36"
           src="/percent.svg"
           height="20"
           width="30"
@@ -18,10 +18,10 @@ function Second() {
           <p className="text-white text-2xl">On Your Next Trip</p>
         </div>
         <div className="lg:text-left text-center ">
-          <p className="text-white my-2">
+          <p className="text-white my-2 text-sm pl-2">
             Make travel your lifestyle with the Travelxp RED
           </p>
-          <p className="text-white mb-5">
+          <p className="text-white mb-5 text-sm pl-2">
             Avail these exclusive discounts and offers with your membership!
           </p>
           <div className="grid">
@@ -73,16 +73,19 @@ function Second() {
                 <p className="text-black font-semibold">
                   Upto 30% off on holidays
                 </p>
-                <p className="text-gray-400 font-extralight text-xs">
-                  You have saved
-                </p>
-                <p className="text-gray-400 font-extralight text-xs">
-                  till now.
-                </p>
+                <p className="text-gray-400 text-xs">You have saved</p>
+                <p className="text-gray-400 text-xs">till now.</p>
               </div>
             </div>
           </div>
         </div>
+        <Image
+          className="hidden md:block mt-48"
+          src="/percent.svg"
+          height="40"
+          width="80"
+          alt=""
+        ></Image>
       </div>
     </div>
   );

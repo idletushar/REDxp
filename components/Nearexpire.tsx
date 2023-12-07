@@ -6,7 +6,7 @@ function Nearexpire() {
     <div className="bg-red1">
       <div className=" px-4 max-w-screen-xl flex flex-wrap items-center justify-items-center justify-around mx-auto pt-12 pb-10 ">
         <Image
-          className="hidden md:block"
+          className="hidden md:block mb-80"
           src="/percent.svg"
           height="20"
           width="30"
@@ -16,9 +16,9 @@ function Nearexpire() {
           <p className="text-white text-2xl ">Expires in</p>
           <p className="text-white text-6xl font-extrabold">45 DAYS </p>
           <div className="hidden md:block">
-            <div className="flex justify-around items-center m-2 rounded-md bg-white border-white border-1 bg-opacity-25 p-3 md:w-auto ">
+            <div className="flex justify-around items-center m-2 rounded-md h-20 bg-white border-white border-1 bg-opacity-25 p-3 md:w-auto ">
               <div>
-                <p className="text-white pr-3">
+                <p className="text-white pr-3 text-sm">
                   You have saved a <br /> total of
                 </p>
               </div>
@@ -26,9 +26,9 @@ function Nearexpire() {
             </div>
           </div>
         </div>
-        <div className="flex lg:hidden justify-around w-full items-center m-2 rounded-md bg-white border-white border-1 bg-opacity-25 p-3 md:w-auto ">
+        <div className="flex lg:hidden justify-around w-full h-20 items-center m-2 rounded-md bg-white border-white border-1 bg-opacity-25 p-3 md:w-auto ">
           <div>
-            <p className="text-white pr-3">
+            <p className="text-white pr-3 text-sm">
               You have saved a <br /> total of
             </p>
           </div>
@@ -38,9 +38,9 @@ function Nearexpire() {
         <div>
           <div className="flex text-center">
             <div className="m-1">
-              <p className="text-white">
+              <p className="text-white pl-2 ">
                 You Saved <br />
-                <span className=" text-4xl font-extrabold">60%</span>
+                <span className=" text-4xl font-extrabold pl-2">60%</span>
               </p>
             </div>
             <div className="ml-4">
@@ -107,7 +107,7 @@ function Nearexpire() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-around m-2 rounded-md bg-white border-white border-1 bg-opacity-25 p-5 ">
+            <div className="flex justify-around mx-2 my-5 rounded-md bg-white border-white border-1 bg-opacity-25 p-5 ">
               <div className="pt-2">
                 <p className="text-white font-thin text-xs">
                   Enjoy your benifits of
@@ -126,6 +126,13 @@ function Nearexpire() {
             </div>
           </div>
         </div>
+        <Image
+          className="hidden md:block mt-80"
+          src="/percent.svg"
+          height="40"
+          width="80"
+          alt=""
+        ></Image>
       </div>
     </div>
   );
