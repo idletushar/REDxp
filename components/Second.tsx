@@ -17,14 +17,14 @@ function Second() {
           <p className="text-white text-6xl font-extrabold">SAVE BIG</p>
           <p className="text-white text-2xl">On Your Next Trip</p>
         </div>
-        <div className="lg:text-left text-center ">
-          <p className="text-white my-2 text-sm pl-2">
+        <div className="lg:text-left text-center lg:mt-0 mt-2">
+          <p className="text-white my-2 text-sm pl-2 ">
             Make travel your lifestyle with the Travelxp RED
           </p>
           <p className="text-white mb-5 text-sm pl-2">
             Avail these exclusive discounts and offers with your membership!
           </p>
-          <div className="grid">
+          <div className="grid lg:mt-0 mt-2">
             <div className="flex overflow-x-scroll no-scrollbar text-left">
               <div className="bg-white rounded-md p-3 mx-2 w-40 flex-shrink-0">
                 <Image
